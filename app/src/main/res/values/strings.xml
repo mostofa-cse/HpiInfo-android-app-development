@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Hpi information</string>
+    <string name="ButtonhmActivity">Home</string>
+    <string name="History">History</string>
+    <string name="HomeActivity">Information</string>
+    <string name="GalleryActivity">Gallery</string>
+    <string name="AboutActivity">About</string>
+    <string name="TechnologyActivity">Technology</string>
+    <string name="TeachersActivity">Teachers</string>
+    <string name="StudentActivity">Student</string>
+
+
+    <string name="Button1Activity">Building 1</string>
+    <string name="Button2Activity">Building 2</string>
+    <string name="Button3Activity">Building 3</string>
+    <string name="Button4Activity">Building 4</string>
+
+    <string name="floor1">Floor 1</string>
+    <string name="floor2">Floor 2</string>
+    <string name="floor3">Floor 3</string>
+    <string name="floor4">Floor 4</string>
+    <string name="floor5">Floor 5</string>
+    <string name="CIVIL">Civil Technology</string>
+    <string name="CMT">Computer Technology</string>
+    <string name="ENT">Electronic Technology</string>
+    <string name="AIDT">Aidt Technology</string>
+
+    <string name="Map">Map</string>
+    <string name="BtebNotice">Bteb Notice</string>
+    <string name="DiplomaInformation">Diploma Information</string>
+    <string name="AllPolytechnicInformation">All Polytechnic Information</string>
+    <string name="HpiNotice">Hpi Notice</string>
+    <string name="Result">Result</string>
+    <string name="HpiWebsite">HpiWebsite</string>
+    <string name="AcademicCalender">Academic Calender</string>
+    <string name="HpiInformation">Hpi Information</string>
+    <string name="Staff">Staff</string>
+    <string name="Ttaidt">Teachers Aidt</string>
+
+
+    <string name="Ttent">Teachers Ent</string>
+    <string name="Ttcmt">Teachers Computer</string>
+    <string name="Ttcivil">Teachers Civil</string>
+    <string name="Haidt">Head Of The Department Aidt</string>
+    <string name="Hent">Head Of The Department Ent</string>
+    <string name="Hcmt">Head Of The Department Cmt</string>
+    <string name="Hcivil">Head Of The Department Civil</string>
+    <string name="Hresult">HPI RESULT</string>
+    <string name="Bresult">BTEB RESULT</string>
+    <string name="Staidt">Student Aidt</string>
+    <string name="Stent">Student Ent</string>
+
+    <string name="Stcmt">Student Computer</string>
+    <string name="Stcivil">Student Civil</string>
+    <string name="Principal">Principal</string>
+    <string name="Taidt">Teachers Aidt</string>
+    <string name="tcivil">Teachers Civil</string>
+    <string name="tcmt">Teachers Cmt</string>
+    <string name="tent">Teachers Ent</string>
+    <string name="Tnontag">Non Tag Teacher</string>
+    <string name="g1">College gallery</string>
+    <string name="g2">Other gallery</string>
+    <string name="tonline">Online teachers and staff</string>
+    <string name="staffonline"> Online Others</string>
+
+    <string name="ofline">Online teachers and staff</string>
+    <string name="Haidtresult">Aidt Technoloy Result</string>
+    <string name="Hcmtresult">Coputer Technoloy Result</string>
+    <string name="Hentresult">Electronic Technoloy Result</string>
+    <string name="Hcivilresult"> Civil Technoloy Result</string>
+    <string name="Onlineg">Online Gallary</string>
+    <string name="ruting"> Class Routine</string>
+
+</resources>

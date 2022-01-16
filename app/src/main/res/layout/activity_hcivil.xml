@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/button"
+    android:scrollbars="none"
+    tools:context="com.example.mostofa.HcivilActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/button"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/zaman" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="382dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Md. Samsuzzaman"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="380dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Instructor  (Teacher) Civil"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="376dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01711973992"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:msz.engr@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

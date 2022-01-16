@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:background="@drawable/button"
+android:scrollbars="none"
+tools:context="com.example.mostofa.TtcmtActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/parul" />
+        <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Parul Rani Das  "
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Instructor Tech( Computer)"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01732070281"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:textIsSelectable="true"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:Parulranidas2@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/juwel" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Jewel Das Asish "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Instructor Tech( Computer)"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01723645082"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Yahoo:d.jewel@yahoo.com"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/asiya" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text=" Name : Mst: Achia Khatun "
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Junior Instructor ( Tech) Computer"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01911610559"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:engachia@gmail.com"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/saju" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Md.Saju Miah"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Part Time Teacher( Computer)"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01780330650"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:sajumiah59.ss@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/jui" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Nusrat Jahan Jui "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Part Time Teacher( Computer)"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01789759977"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:nusratjui529561@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/aklima" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Aklima Akther Lima"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Part Time Teacher( Computer)"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01726198472"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:lima1234aklima@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/alamin" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Al-Amin"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Part Time Teacher( Computer)"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01735880267"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:alamincse524@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ibrahim" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text=" Name : Md. Ibrahim"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Craft Instructor TR"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01712345270"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:--------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

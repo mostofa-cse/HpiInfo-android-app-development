@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:scrollbars="none"
+    android:background="@drawable/button"
+tools:context="com.example.mostofa.TtentActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/sumii" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Mahmuda Naznin Sumi  Junior "
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Instructor ( Tech) Ent"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01982495868"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:omi22101983@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/anam" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text=" Name : Md:Moksud Alom "
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Junior Instructor ( Tech)Ent"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01723795934"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:mdmoksudanam@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/najmul" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:textIsSelectable="true"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Mohammad Nazmul Hasan "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mohammad Nazmul Hasan  "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01714896428"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:nazmulhasan922@gmail.com"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background"
+            android:isScrollContainer="true"
+            android:layout_marginBottom="10dp"
+            android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Name : Md: Abul Khear"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Craft Instructor TR"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Mobil:01714290383"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bottom_buttomhmm"
+                    android:text="Gmail:khear.bdh@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textIsSelectable="true"
+                    android:layout_marginBottom="15dp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

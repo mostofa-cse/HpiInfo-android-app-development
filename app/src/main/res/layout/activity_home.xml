@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="379dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/history1"
+            android:drawableRight="@drawable/arry4"
+            android:text="history"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/images9"
+            android:drawableRight="@drawable/arry4"
+            android:text="gallery"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/technology"
+            android:drawableRight="@drawable/arry4"
+            android:text="technology"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/teacher"
+            android:drawableRight="@drawable/arry4"
+            android:text="offline teachers and staff"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/studenticon"
+            android:drawableRight="@drawable/arry4"
+            android:text="online teachers and staff"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/student"
+            android:drawableRight="@drawable/arry4"
+            android:text="student"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/images2"
+            android:drawableRight="@drawable/arry4"
+            android:text="academic calender"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/web"
+            android:drawableRight="@drawable/arry4"
+            android:text="hpi website"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/images11"
+            android:drawableRight="@drawable/arry4"
+            android:text="hpi notice"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/ruting"
+            android:drawableRight="@drawable/arry4"
+            android:text="hpi class routine"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/images15"
+            android:drawableRight="@drawable/arry4"
+            android:text="result"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/images11"
+            android:drawableRight="@drawable/arry4"
+            android:text="bteb notice"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/images16"
+            android:drawableRight="@drawable/arry4"
+            android:text="map"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_bottom_buttomhmm"
+            android:drawableLeft="@drawable/man"
+            android:drawableRight="@drawable/arry4"
+            android:text="about"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+
+    </LinearLayout>
+</ScrollView>

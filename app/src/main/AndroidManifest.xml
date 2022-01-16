@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mostofa">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="HPI INFO"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OnlinegActivity"
+            android:label="@string/Onlineg"
+            android:parentActivityName=".GalleryActivity"></activity>
+        <activity android:name=".HpiclassrutingActivity"
+            android:label="@string/ruting"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".TonlineActivity"
+            android:label="@string/tonline"
+            android:parentActivityName=".OnlinetfActivity" />
+        <activity
+            android:name=".StaffonlineActivity"
+            android:label="@string/staffonline"
+            android:parentActivityName=".OnlinetfActivity" />
+        <activity
+            android:name=".OnlinetfActivity"
+            android:label="@string/ofline"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HaidtresultActivity"
+            android:label="@string/Haidtresult"
+            android:parentActivityName=".HresultActivity" />
+        <activity
+            android:name=".HentresultActivity"
+            android:label="@string/Hentresult"
+            android:parentActivityName=".HresultActivity" />
+        <activity
+            android:name=".HcmtresultActivity"
+            android:label="@string/Hcmtresult"
+            android:parentActivityName=".HresultActivity" />
+        <activity
+            android:name=".HcresultActivity"
+            android:label="@string/Hcivilresult"
+            android:parentActivityName=".HresultActivity" />
+        <activity
+            android:name=".G1Activity"
+            android:label="@string/g1"
+            android:parentActivityName=".GalleryActivity" />
+        <activity
+            android:name=".G2Activity"
+            android:label="@string/g2"
+            android:parentActivityName=".GalleryActivity" />
+        <activity
+            android:name=".StaffActivity"
+            android:label="@string/Staff"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".TtaidtActivity"
+            android:label="@string/Ttaidt"
+            android:parentActivityName=".TaidtActivity" />
+        <activity
+            android:name=".TtentActivity"
+            android:label="@string/Ttent"
+            android:parentActivityName=".TentActivity" />
+        <activity
+            android:name=".TtcmtActivity"
+            android:label="@string/Ttcmt"
+            android:parentActivityName=".TcmtActivity" />
+        <activity
+            android:name=".TtcivilActivity"
+            android:label="@string/Ttcivil"
+            android:parentActivityName=".TcivilActivity" />
+        <activity
+            android:name=".HaidtActivity"
+            android:label="@string/Haidt"
+            android:parentActivityName=".TaidtActivity" />
+        <activity
+            android:name=".HentActivity"
+            android:label="@string/Hent"
+            android:parentActivityName=".TentActivity" />
+        <activity
+            android:name=".HcmtActivity"
+            android:label="@string/Hcmt"
+            android:parentActivityName=".TcmtActivity" />
+        <activity
+            android:name=".HcivilActivity"
+            android:label="@string/Hcivil"
+            android:parentActivityName=".TcivilActivity" />
+        <activity
+            android:name=".HresultActivity"
+            android:label="@string/Hresult"
+            android:parentActivityName=".ResultActivity" />
+        <activity
+            android:name=".BresultActivity"
+            android:label="@string/Bresult"
+            android:parentActivityName=".ResultActivity" />
+        <activity
+            android:name=".StaidtActivity"
+            android:label="@string/Staidt"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".StentActivity"
+            android:label="@string/Stent"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".StcmtActivity"
+            android:label="@string/Stcmt"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".StcivilActivity"
+            android:label="@string/Stcivil"
+            android:parentActivityName=".StudentActivity" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:label="@string/Principal"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".TaidtActivity"
+            android:label="@string/Taidt"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".TnontagActivity"
+            android:label="@string/Tnontag"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".TentActivity"
+            android:label="@string/tent"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".TcmtActivity"
+            android:label="@string/tcmt"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".TcivilActivity"
+            android:label="@string/tcivil"
+            android:parentActivityName=".TeachersActivity" />
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/Map"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".BtebNoticeActivity"
+            android:label="@string/BtebNotice"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/Result"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HpiNoticeActivity"
+            android:label="@string/HpiNotice"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HpiWebsiteActivity"
+            android:label="@string/HpiWebsite"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AcademicCalenderActivity"
+            android:label="@string/AcademicCalender"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".B4f5Activity"
+            android:label="@string/AIDT"
+            android:parentActivityName=".Bobon4Activity" />
+        <activity
+            android:name=".B4f4Activity"
+            android:label="@string/ENT"
+            android:parentActivityName=".Bobon4Activity" />
+        <activity
+            android:name=".B4f3Activity"
+            android:label="@string/CMT"
+            android:parentActivityName=".Bobon4Activity" />
+        <activity
+            android:name=".B4f2Activity"
+            android:label="@string/CIVIL"
+            android:parentActivityName=".Bobon4Activity" />
+        <activity
+            android:name=".B4f1Activity"
+            android:label="@string/floor1"
+            android:parentActivityName=".Bobon4Activity" />
+        <activity
+            android:name=".B3f2Activity"
+            android:label="@string/floor2"
+            android:parentActivityName=".Bobon3Activity" />
+        <activity
+            android:name=".B3f1Activity"
+            android:label="@string/floor1"
+            android:parentActivityName=".Bobon3Activity" />
+        <activity
+            android:name=".B2f2Activity"
+            android:label="@string/floor2"
+            android:parentActivityName=".Bobon2Activity" />
+        <activity
+            android:name=".B2f1Activity"
+            android:label="@string/floor1"
+            android:parentActivityName=".Bobon2Activity" />
+        <activity
+            android:name=".B1f5Activity"
+            android:label="@string/floor5"
+            android:parentActivityName=".Bobon1Activity" />
+        <activity
+            android:name=".B1f4Activity"
+            android:label="@string/floor4"
+            android:parentActivityName=".Bobon1Activity" />
+        <activity
+            android:name=".B1f3Activity"
+            android:label="@string/floor3"
+            android:parentActivityName=".Bobon1Activity" />
+        <activity
+            android:name=".B1f2Activity"
+            android:label="@string/floor2"
+            android:parentActivityName=".Bobon1Activity" />
+        <activity
+            android:name=".B1f1Activity"
+            android:label="@string/floor1"
+            android:parentActivityName=".Bobon1Activity" />
+        <activity
+            android:name=".Bobon4Activity"
+            android:label="@string/Button4Activity"
+            android:parentActivityName=".ButtonhmActivity" />
+        <activity
+            android:name=".Bobon3Activity"
+            android:label="@string/Button3Activity"
+            android:parentActivityName=".ButtonhmActivity" />
+        <activity
+            android:name=".Bobon2Activity"
+            android:label="@string/Button2Activity"
+            android:parentActivityName=".ButtonhmActivity" />
+        <activity
+            android:name=".Bobon1Activity"
+            android:label="@string/Button1Activity"
+            android:parentActivityName=".ButtonhmActivity" />
+        <activity
+            android:name=".ButtonhmActivity"
+            android:label="@string/ButtonhmActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentActivity"
+            android:label="@string/StudentActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".TeachersActivity"
+            android:label="@string/TeachersActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".TechnologyActivity"
+            android:label="@string/TechnologyActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".GalleryActivity"
+            android:label="@string/GalleryActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/AboutActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="History"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

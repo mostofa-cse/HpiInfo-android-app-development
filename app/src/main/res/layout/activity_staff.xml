@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:background="@drawable/button"
+android:scrollbars="none"
+tools:context="com.example.mostofa.StaffActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/abulkhayer" />
+
+        <TableLayout
+            android:id="@+id/tableLayout16"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#B8B4BA"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mohammed Abul Khair"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#B8B4BA"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Head Assistant"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#B8B4BA"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01715240161"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#B8B4BA"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:khairhpi@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout15"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Molay Choudhory"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text=" Accountant"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01719800870"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:molaychoudhory@gmail.com"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/cakma" />
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Jubnel Chakma"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Electrician- Cum Pump Operator"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01767830606"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:Jubnel.reg@gmail.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Md:Nazrul Islam Khan"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Store Keeper"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01716064564"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Md Suruj Khan  "
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Driver"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01760521202"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Sovandu Routh"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Caretaker"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01992008277"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Yahoo:sovandurouth@yahoo.com"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Saila Begum"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="MLSS"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01750412448"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:--------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:textIsSelectable="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Md:Nazrul Islam"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Security Guard"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01737306176"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:--------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Sumon Chandra Das"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Cleaner"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01717459634"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:--------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:textIsSelectable="true"
+                    android:background="@drawable/button_background"
+                    android:text="Md :Masudur Rahman"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Cleaner"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01726557142"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:------"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Md Rahim Uddin"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Cleaner"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01761508154"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:---------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout11"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Md :Rezaul Karim"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Cleaner"
+                    android:textAlignment="center"
+                    android:textIsSelectable="true"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01766754509"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:rezaulkarim18875@gmail.com"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textIsSelectable="true"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images9" />
+
+        <TableLayout
+            android:id="@+id/tableLayout12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true"
+            android:padding="10dip">
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="366dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Md :Motiur Rahman"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="371dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Cleaner"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="374dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Mobil:01719219412"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="2dp"
+                android:background="#c6c6c6"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="377dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Gmail:---------"
+                    android:textIsSelectable="true"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="normal|bold|italic" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
